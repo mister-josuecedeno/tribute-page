@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: purple;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  background-color: #fff;
+  margin: 1em;
+  padding: 1.25em;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-family: 'Merriweather', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 2.5em;
+  margin-bottom: 0.25em;
+  border-bottom: 1.25px solid purple;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-bottom: 0.75em;
+  color: grey;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  font-size: 0.5em;
+}
+
+img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  font-size: 1.25em;
+}
+
+caption {
+  color: grey;
+  font-size: 0.5em;
+}
+
+.btn {
+  background: purple;
+  border-radius: 5px;
+  width: max-content;
+  padding: 1em 2em;
+  margin-bottom: 2em;
+}
+
+.btn a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+.social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.social a {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
