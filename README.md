@@ -1,5 +1,9 @@
 # Tribute Page - Prince
 
+## Live
+
+View demo: https://mister-josuecedeno.github.io/tribute-page/
+
 ## Objective
 
 Build a tribute page using HTML and CSS only. Ensure that the page complies with the fundametals of UI design.
